@@ -3,6 +3,7 @@ name = "enum-as-inner"
 version = "0.3.3"
 authors = ["Benjamin Fry <benjaminfry@me.com>"]
 edition = "2018"
+publish = false
 
 description = """
 A proc-macro for deriving inner field accessor functions on enums.
