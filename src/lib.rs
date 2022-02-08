@@ -97,7 +97,7 @@ extern crate syn;
 #[macro_use]
 extern crate quote;
 
-use heck::SnakeCase;
+use heck::ToSnakeCase;
 use proc_macro2::{Ident, Span, TokenStream};
 use syn::DeriveInput;
 
